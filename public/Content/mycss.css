@@ -1,0 +1,194 @@
+/*******************************
+     MASTER MODAL AS LEFT SIDEBAR
+*******************************/
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+position: fixed;
+margin: auto;
+width: 230px;
+height: 100%;
+background:#e6e6ff
+-webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+   -o-transform: translate3d(0%, 0, 0);
+      transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+height: 100%;
+overflow-y: auto;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+padding: 15px 15px 80px;
+}
+
+/*Left*/
+.modal.left.fade .modal-dialog{
+left: -320px;
+-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+ -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+   -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+      transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+.modal.left.fade.in .modal-dialog{
+left: 0;
+}
+
+.modal.right.fade.in .modal-dialog {
+right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+border-radius: 0;
+border: none;
+}
+
+/* ul,li and a tag style */
+#nav_left_modal li {
+ list-style-type: none;
+ padding:5px;
+}
+#nav_left_modal li:hover{
+  text-decoration:none;
+  background: #ccccfa;
+}
+
+
+
+/*******************************
+  master navbar style
+*******************************/
+#fauser:hover {
+     background:#286090;
+ }
+ #fabell:hover {
+     background:#286090;
+     cursor:pointer;
+ }
+ #nearby:hover{
+   background:#286090;
+   cursor:pointer;
+ }
+ #signin:hover{
+   background:#286090;
+   cursor:pointer;
+ }
+
+
+ /*******************************
+    home page's first section - second column search
+ *******************************/
+  #find_by_location:hover {
+    background:#52a3ff;
+    color:white;
+  }
+
+
+  /*******************************
+     home navbar style
+  *******************************/
+
+  @media only screen and (max-width: 768px) {
+   /* For mobile phones: */
+   [id="nearby_navbar"] {
+     margin-top:20px;
+   }
+}
+@media only screen and (max-width:400px) {
+  /* For mobile phones: */
+  [id="nearby_navbar"] {
+    margin-top:60px;
+
+  }
+}
+/*******************************
+      host profile nav
+ *******************************/
+ #affix2.affix{
+    top:60px;
+    width: 100%;
+    z-index: 9999 !important;
+    }
+
+/*******************************
+        master footer css
+ *******************************/
+     /* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #007b5e !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
