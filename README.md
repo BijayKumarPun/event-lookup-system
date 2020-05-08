@@ -18,9 +18,10 @@ Android version of the same system which, sadly, was one `git push origin master
 ### Milan Subedi
 The documentation part that exists somewhere as a Word document, PDF if any better.
  
-This project is unofficially closed.
  
 Kudos to everyone who contributed.
+This project is unofficially closed. 
+> **Forked** for educational purpose only.
 
  
  
